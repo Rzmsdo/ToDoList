@@ -1,0 +1,19 @@
+#semaforo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    width: max-content;
+  }
+  
+  .light {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: darkgrey;
+    margin-bottom: 10px;
+  }
+  
