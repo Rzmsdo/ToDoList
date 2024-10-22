@@ -65,8 +65,11 @@ const TodoList = () => {
             onChange={handleChange}
             placeholder="Escribiendo..."
           />
-          <button onClick={handleClick} className="btn btn-success">
-            Agregar
+          <button
+            onClick={handleClick}
+            className="btn btn-success rounded-pill"
+          >
+            <i className="bi bi-plus"></i>
           </button>
         </div>
         <ul className="list-group">
@@ -92,7 +95,7 @@ const TodoList = () => {
                     onClick={() => deleteTask(indice)}
                     className="btn btn-danger"
                   >
-                    Borrar
+                    <i className="bi bi-trash3"></i>
                   </button>
                 </div>
               </li>
