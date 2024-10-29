@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const TodoList = () => {
-  const url_api = "https://playground.4geeks.com/todo/users/fe%C3%B1o";
+  const url_api = "https://playground.4geeks.com/todo/users/fernando";
 
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState("");
